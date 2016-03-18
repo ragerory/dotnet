@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{4FAE18AA-172F-4516-B934-228189741498}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entities", "Entities", "{A3BA85A0-A2E4-4640-9E97-A402E0205126}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccess", "DataAccess", "{6E283809-279B-43A4-9456-D229D32E1999}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Contracts", "Contracts", "{43AD25D2-9B6A-41F5-94FD-D70C18EEEE81}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hosts", "Hosts", "{01E42983-5204-4E1D-9C26-1B5AA5BC272E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{AA24C2AC-B129-4A48-B898-2673EB26374B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Brandstagram.ProviderService", "Brandstagram.ProviderService\Brandstagram.ProviderService.csproj", "{92BDEA4F-0D77-4C59-9040-B37F67067159}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{9103D63E-BC9F-4746-91F7-3C076C8EFE18}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{609C4B6E-33EF-4DD7-B1E6-B07345718CF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Brandstagram.ServiceContracts", "Brandstagram.ServiceContracts\Brandstagram.ServiceContracts.csproj", "{2F53C7CF-FA75-42F6-9B88-C3C1534901E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Brandstagram.DataContracts", "Brandstagram.DataContracts\Brandstagram.DataContracts.csproj", "{929A89B5-15A0-4964-9371-28943BAD8F8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Brandstagram.BusinessLogic", "Brandstagram.BusinessLogic\Brandstagram.BusinessLogic.csproj", "{2EA8AB54-8A66-4661-B802-EA70B39B776A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92BDEA4F-0D77-4C59-9040-B37F67067159}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92BDEA4F-0D77-4C59-9040-B37F67067159}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92BDEA4F-0D77-4C59-9040-B37F67067159}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92BDEA4F-0D77-4C59-9040-B37F67067159}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F53C7CF-FA75-42F6-9B88-C3C1534901E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F53C7CF-FA75-42F6-9B88-C3C1534901E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F53C7CF-FA75-42F6-9B88-C3C1534901E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F53C7CF-FA75-42F6-9B88-C3C1534901E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{929A89B5-15A0-4964-9371-28943BAD8F8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{929A89B5-15A0-4964-9371-28943BAD8F8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{929A89B5-15A0-4964-9371-28943BAD8F8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{929A89B5-15A0-4964-9371-28943BAD8F8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EA8AB54-8A66-4661-B802-EA70B39B776A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EA8AB54-8A66-4661-B802-EA70B39B776A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EA8AB54-8A66-4661-B802-EA70B39B776A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EA8AB54-8A66-4661-B802-EA70B39B776A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{43AD25D2-9B6A-41F5-94FD-D70C18EEEE81} = {4FAE18AA-172F-4516-B934-228189741498}
+		{01E42983-5204-4E1D-9C26-1B5AA5BC272E} = {4FAE18AA-172F-4516-B934-228189741498}
+		{92BDEA4F-0D77-4C59-9040-B37F67067159} = {01E42983-5204-4E1D-9C26-1B5AA5BC272E}
+		{9103D63E-BC9F-4746-91F7-3C076C8EFE18} = {43AD25D2-9B6A-41F5-94FD-D70C18EEEE81}
+		{609C4B6E-33EF-4DD7-B1E6-B07345718CF3} = {43AD25D2-9B6A-41F5-94FD-D70C18EEEE81}
+		{2F53C7CF-FA75-42F6-9B88-C3C1534901E6} = {609C4B6E-33EF-4DD7-B1E6-B07345718CF3}
+		{929A89B5-15A0-4964-9371-28943BAD8F8F} = {9103D63E-BC9F-4746-91F7-3C076C8EFE18}
+		{2EA8AB54-8A66-4661-B802-EA70B39B776A} = {AA24C2AC-B129-4A48-B898-2673EB26374B}
+	EndGlobalSection
+EndGlobal
