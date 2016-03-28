@@ -1,6 +1,5 @@
 ﻿#region Using Directives
 
-using Brandstagram.ServiceContracts.Requests;
 using Brandstagram.ServiceContracts.Responses;
 
 using System.ServiceModel;
